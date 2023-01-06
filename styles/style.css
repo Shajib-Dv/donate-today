@@ -8,7 +8,7 @@
 /* banner section */
 .banner-section {
   width: 100%;
-  height: 100vh;
+  height: 500px;
   background-image: url("../images/donation-banner.jpg"),
     linear-gradient(rgba(49, 45, 45, 0.581), rgba(62, 52, 52, 0.929));
   background-blend-mode: overlay;
@@ -67,7 +67,7 @@
 }
 
 .donation-container {
-  height: 100vh;
+  height: 100%;
 }
 
 .donate-title,
@@ -171,7 +171,6 @@
 .img-container {
   height: 500px;
   width: 800px;
-  margin-top: 20px;
   border-radius: 10px;
   box-shadow: 1px 1px 2px 2px white;
   margin-top: 100px;
@@ -189,7 +188,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: inherit;
 }
 
 .infro-container h1 {
@@ -224,7 +223,6 @@
   width: 800px;
   margin: 0 auto;
   background-color: rgba(251, 177, 167, 0.499);
-  position: relative;
 }
 
 #mail,
@@ -238,15 +236,12 @@
 #mail {
   width: 300px;
   background-color: rgba(128, 128, 128, 0.43);
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
 }
 #subscribe {
   width: 150px;
   background-color: rgba(255, 0, 0, 0.51);
-  border-radius: 5px;
-  position: absolute;
-  top: 57px;
-  right: 100px;
+  border-radius: 0 5px 5px 0;
 }
 
 footer {
