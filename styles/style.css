@@ -1,0 +1,271 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* banner section */
+.banner-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/donation-banner.jpg"),
+    linear-gradient(rgba(49, 45, 45, 0.581), rgba(62, 52, 52, 0.929));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  text-align: center;
+  color: white;
+}
+
+.banner-title {
+  font-size: 65px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 10%;
+}
+
+.banner-title > span {
+  color: rgb(76, 168, 249);
+}
+
+.banner-description,
+.donate-description,
+.donation-description,
+.update-description {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  line-height: 2;
+}
+/* this is primary btn which is appliyed all btn */
+.primary-btn {
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: rgba(237, 32, 32, 0.778);
+  border: none;
+  border-radius: 5px;
+}
+
+.primary-btn:hover {
+  background-color: rgb(252, 88, 88);
+}
+
+/* donation feild */
+.donation-feild {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: rgb(248, 245, 239);
+  padding-bottom: 50px;
+}
+
+.donation-container {
+  height: 100vh;
+}
+
+.donate-title,
+.donation-title,
+.update-title {
+  font-size: 55px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 5%;
+}
+
+.select-tk {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tk {
+  color: gray;
+  background-color: rgb(251, 247, 224);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 30px;
+  border: 2px solid transparent;
+}
+
+.tk:hover,
+.tk:active {
+  border: 2px solid rgb(250, 107, 107);
+  background-color: rgb(252, 192, 192);
+  color: rgb(251, 102, 102);
+  border-radius: 5px;
+}
+
+#amount {
+  color: gray;
+  height: 10px;
+  width: 55%;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 1px solid gray !important ;
+  outline: none;
+  border: 1px solid transparent;
+  margin: 20px 0;
+  background: transparent;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: gray;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.plan-container {
+  display: flex;
+  width: 90%;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.plan-section {
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+  height: auto;
+  width: 300px;
+}
+
+.plan-section > h2 {
+  padding: 20px 0;
+  color: black;
+}
+
+.plan-section > p {
+  color: gray;
+  line-height: 2;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.box-1 {
+  background-color: rgba(99, 242, 250, 0.176);
+}
+.box-2 {
+  background-color: rgba(254, 195, 239, 0.697);
+}
+
+.box-3 {
+  background-color: rgba(243, 195, 254, 0.697);
+}
+
+.work-container {
+  display: flex;
+  width: 100%;
+}
+
+.img-container {
+  height: 500px;
+  width: 800px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 2px white;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.right-img {
+  margin-right: 100px;
+}
+
+.left-img {
+  margin-left: 100px;
+}
+.work-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.infro-container h1 {
+  width: 50%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.infro-container p {
+  height: auto;
+  font-size: 18px;
+  color: gray;
+  text-align: left;
+  width: 60%;
+  margin-left: 100px;
+  line-height: 2;
+  padding: 50px 0;
+}
+.btn-align {
+  width: 50%;
+}
+
+.mail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: rgba(251, 177, 167, 0.499);
+  position: relative;
+}
+
+#mail,
+#subscribe {
+  border: none;
+  outline: none;
+  height: 35px;
+  padding: 10px;
+}
+
+#mail {
+  width: 300px;
+  background-color: rgba(128, 128, 128, 0.43);
+  border-radius: 5px;
+}
+#subscribe {
+  width: 150px;
+  background-color: rgba(255, 0, 0, 0.51);
+  border-radius: 5px;
+  position: absolute;
+  top: 57px;
+  right: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+}
+
+footer h1 {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 60px;
+  color: rgba(255, 0, 0, 0.596);
+}
+
+footer p {
+  padding-top: 30px;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
